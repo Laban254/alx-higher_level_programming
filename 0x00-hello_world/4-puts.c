@@ -1,13 +1,13 @@
-#include <stdio.h>
+#include <stdio.h>>
 
 /**
- * includes main
- * it prints "\"Programming is like building a multilingual puzzle"
- * Return: 0
+ * introduce main
+ * print "Programming is like building a multilingual puzzle
+ * Return: o
  */
 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	return(0);
 }
