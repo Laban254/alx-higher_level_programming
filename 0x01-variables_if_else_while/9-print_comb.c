@@ -12,8 +12,8 @@ int main(void)
 
 	for (c = 'o'; c <= '9'; c++)
 	{
-		putchar(i);
-		if (i !='9')
+		putchar(c);
+		if (c !='9')
 		{
 			putchar(',');
 			putchar(' ');
