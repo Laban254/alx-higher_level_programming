@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main entry point
+ *main - entry point
  *description - a to z  in upper case and lower case
  *Return: 0
  */
@@ -10,13 +10,13 @@ int main(void)
 {
 	int u, l;
 
-	for (u = 'a'; u <= 'l'; u++)
+	for (u = 'a'; u <= 'z'; u++)
 	{
-		putchar('u');
+		putchar(u);
 	}
-	for (l = 'A'; l <= 'A'; l++)
+	for (l = 'A'; l <= 'Z'; l++)
 	{
-		putchar('l');
+		putchar(l);
 	}
 	putchar('\n');
 	return (0);
