@@ -3,7 +3,7 @@
 /**
  *main - Entry point
  *Description: prints numbersin ascending order
- *Return: Always 0 
+ *Return: Always 0
  */
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	for (c = 'o'; c <= '9'; c++)
 	{
 		putchar(c);
-		if (c !='9')
+		if (c != '9')
 		{
 			putchar(',');
 			putchar(' ');
