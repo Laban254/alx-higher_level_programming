@@ -2,18 +2,17 @@
 
 /**
  *main - entry level
- *description do not print q e
- *return: 0
+ *description do notinclude q e
+ *Return: 0
  */
 
 int main(void)
 {
 	int l;
-
 	for (l = 'a'; l <= 'z'; l++)
 	{
-		 if (l != 'e' && l != 'q') 
-			 putchar(l);
+		if (l != 'e' && l != 'q') 
+			putchar(l);
 	}
 	putchar('\n');
 	return (0);
