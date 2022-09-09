@@ -1,27 +1,28 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdi0.h>
 
 /**
- * main -n determines if value in main
- * if > 0 ouput positive
- * if < 0 otput negative
- * return 0
+ *main - entry point
+ *description find positive and negative value
+ *Return: 0
  */
 
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if(n > 0)
+	if (n > 0)
 	{
-		printf("%d is pisitive", n);
+		printf("%d is positive", n);
 	}
-	else if (n==0)
+	else if (n == 0)
 	{
 		printf("%d is zero", n);
 	}
-	elsif if (n<0)
+	else if (n < 0)
 	{
 		printf("%d is negative", n);
 	}
