@@ -1,4 +1,4 @@
-#includee "main.h"
+#include "main.h"
 
 /**
  * _abs -entry point
@@ -12,7 +12,7 @@ int _abs(int n)
 {
 	if (n > 0)
 	{
-		retunt(n);
+		return(n);
 	}
 	else if (n < 0)
 	{
