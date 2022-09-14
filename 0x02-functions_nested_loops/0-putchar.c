@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <main.h>
 
 /**
  * main - entry point
@@ -10,5 +9,5 @@
 int main(void)
 {
 	printf("0-putchar.c");
-	return (o);
+	return (0);
 }
