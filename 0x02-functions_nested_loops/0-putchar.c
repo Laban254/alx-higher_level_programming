@@ -15,6 +15,6 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 		_putchar(word[i]);
-	_putchar(\n');
+	_putchar('\n');
 	return (0);
 }
