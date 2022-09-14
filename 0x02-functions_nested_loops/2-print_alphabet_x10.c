@@ -7,7 +7,7 @@
  *
  */
 
-int print_alphabet_x10(void);
+int print_alphabet_x10(void)
 {
 	int i;
 	char n;
