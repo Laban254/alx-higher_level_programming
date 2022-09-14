@@ -8,7 +8,7 @@
  *
  */
 
-int _isslower(int c)
+int _islower(int c)
 {
 	int i = 'a';
 
