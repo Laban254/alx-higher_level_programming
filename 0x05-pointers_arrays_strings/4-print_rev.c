@@ -2,21 +2,23 @@
 
 /**
  * print_rev - prints a string, in reverse, followed by a new line.
+ * hcounter is to first count to end, b is to count back
  * @s: an input string
  *Return: Nothing
  */
 
 void print_rev(char *s)
 {
-	int len = 0, i = 0;
-	char rev;
+	int hcounter = 0;
+	int i, b;
 
-	while (s[len] != '\0')
-		rev++;
-	while (i < len--)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		rev = s[i];
-		s[i++] = s[len];
-		s[len] = rev;
+		fcounter++;
 	}
+	for (b = (hcounter - 1); b >= 0; b--)
+	{
+		_putchar(s[n]);
+	}
+	_putchar('\n');
 }
