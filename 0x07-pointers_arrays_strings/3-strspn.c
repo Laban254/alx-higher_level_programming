@@ -20,6 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 			if (accept[n] == s[i])
 			{
 				value++;
+				check = 1;
 			}
 		}
 		if (check == 0)
