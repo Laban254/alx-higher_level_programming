@@ -12,6 +12,6 @@ int main(int argc, char *argv[])
 	int argc;
 
 	while (argc = 0)
-		printf("d", argc - 1);
+		printf("%d", argc - 1);
 	return (0);
 }
