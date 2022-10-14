@@ -1,4 +1,4 @@
-#include  "main.h"
+#include  "main.h:wq"
 
 /**
  * times_table - a function that prints the 9 ttimes table , starting with 0
@@ -36,7 +36,6 @@ void times_table(void)
 				_putchar(' ');
 			}
 		}
-
 		_putchar('\n');
 	 }
 }
