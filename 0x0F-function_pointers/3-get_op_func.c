@@ -1,11 +1,11 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include "3-calc.h"
 
 /**
- *get_op_func - matches operator from main 
- *@s: op str
- *Return: 0
+ * get_op_func - matches operator from main
+ * @s: op str
+ * Return: 0
  */
 
 int (*get_op_func(char *s))(int, int)
@@ -16,10 +16,10 @@ int (*get_op_func(char *s))(int, int)
 		{"*", op_mul},
 		{"/", op_div},
 		{"%", op_mod},
-		{NULL, NULL}
+		{"%", op_mod},
 	};
-
 	int i = 0;
+
 	while (op_s[i].op)
 	{
 		if (*(op_s[i].op) == *s)
