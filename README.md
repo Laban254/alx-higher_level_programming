@@ -1,1 +1,1 @@
-with the projects i will be learning on variadic functions
+with the projects i will be learning on cC programming
