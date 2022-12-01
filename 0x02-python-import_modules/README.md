@@ -1,6 +1,6 @@
-##Learning Objectives
+## Learning Objectives
 
-##General
+## General
 
 Why Python programming is awesome
 
@@ -16,9 +16,9 @@ How to prevent code in your script from being executed when imported
 
 How to use command line arguments with your Python programs
 
-##Requirements
+## Requirements
 
-#General
+# General
 
 Allowed editors: vi, vim, emacs
 
