@@ -1,9 +1,9 @@
-#!/usr/bin/pyhon3
+#!/usr/bin/python3
 
 
 """Returns a list of class attributes"""
 
 
 def lookup(obj):
-    """method to looup class attributes"""
+    """method to lookup class attributes"""
     return (dir(obj))
