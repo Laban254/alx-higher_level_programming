@@ -2,10 +2,6 @@
 """This module contains a class to serve as base for other classes"""
 
 
-
-
-
-
 class Base:
     """Represents base of all classes created """
 
