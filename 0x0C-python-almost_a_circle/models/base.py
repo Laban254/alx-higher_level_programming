@@ -24,3 +24,10 @@ class Base:
         if list_dictionaries is None or list_dictionaries == []:
             return "[]"
         return json.dumps(list_dictionaries)
+
+    def from_json_string(json_string):
+        """json string to dictionary"""
+
+        if json_string is None or json_string is []:
+            return "[]"
+        return json.loads(json_string)
