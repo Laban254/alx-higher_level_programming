@@ -29,5 +29,17 @@ class Base:
         """json string to dictionary"""
 
         if json_string is None or json_string is []:
-            return "[]"
+            return []
         return json.loads(json_string)
+
+    @staticmethod
+    def create(cls, **dictionary):
+        """"returns an instance with
+        all attributes already set"""
+
+        if cls.__name__ == 'Rectangle':
+            a = cls(1, 1)
+        if cls.__name__ == 'Square':
+            a = cls(1)
+        a.update(**dictionary)
+        return a
