@@ -1,30 +1,31 @@
 #!/usr/bin/python3
-
-""""instantiates a class and converts its items
-to json representation"""
+# 12-student.py
+# Sagebeme
+"""Defines a class Student."""
 
 
 class Student:
-    """defines a student including a method to
-    represent the class in json"""
+    """Represent a student."""
 
     def __init__(self, first_name, last_name, age):
-        """instantiates the class object"""
+        """Initialize a new Student.
+        Args:
+            first_name (str): The first name of the student.
+            last_name (str): The last name of the student.
+            age (int): The age of the student.
+        """
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
 
     def to_json(self, attrs=None):
-        """converts class attributes to jason
-        representation"""
-
-       if isinstance(attrs, list) and\
-            all(isinstance(item, str) for item in attrs):
-            result = {}
-            for i in attrs:
-                try:
-                    result[i] = self.__dict__[i]
-                except Exception:
-                    pass
-            return result
-        return self.__dict__ 
+        """Get a dictionary representation of the Student.
+        If attrs is a list of strings, represents only those attributes
+        included in the list.
+        Args:
+            attrs (list): (Optional) The attributes to represent.
+        """
+        if (type(attrs) == list and
+                all(type(ele) == str for ele in attrs)):
+            return {k: getattr(self, k) for k in attrs if hasattr(self, k)}
+        return self.__dict__
