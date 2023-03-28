@@ -1,9 +1,7 @@
 ![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
 
-# Zen (Python) 
-
-
-
+# Higher-level programming - Python, Databases & JavaScript
+## Zen (Python) 
 <details>
 <summary>The Zen of Python, by Tim Peters</summary>
 <br>
@@ -46,7 +44,6 @@ Namespaces are one honking great idea -- let's do more of those!
 
 # About
 
-## Higher-level programming - Python, Databases & JavaScript
 
 This repository contains programs written for the higher-level programming
 track at Holberton School. In these projects, which began occurring in month
@@ -74,9 +71,9 @@ scripting. The specific list of projects contained follows:
 * [0x13. Javascript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures)
 
 
-## Author :laban254:
+## Author :
 
-* **Laban Kibet**   [laban254](https://github.com/laban254)
+* **Laban Kibet Rotich**   [laban254](https://github.com/laban254)
 
 ## Acknowledgements :pray:
 
