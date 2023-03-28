@@ -1,6 +1,6 @@
 ![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
 
-# C is FUN 😊
+# C is FUN but its not that easy😊
 
 >Learning C right now.
 
@@ -15,7 +15,6 @@
 
 ---
 
-- C is fun but its not that easy, so I have some [notes](./notes.md) that will actually show you the journey and thought process.
 
 ## Resource
 
