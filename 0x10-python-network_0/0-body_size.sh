@@ -1,4 +1,3 @@
 #!/bin/bash
-# cURL get body size
-
-curl -so /dev/null -w '%{size_download}\n' "$1"
+# send a request to an URL with curl and displays the size of the body of the response
+curl -s -w '%{size_download}' -o /dev/null "$1"
