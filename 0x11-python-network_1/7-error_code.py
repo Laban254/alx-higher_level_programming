@@ -1,15 +1,16 @@
 #!/usr/bin/python3
-"""Get a request using requests package"""
+""" Takes in a URL and sends a request to the URL
+and displays the body of the response
+"""
 
+import sys
 import requests
-from sys import argv as av
 
-if __name__ == '__main__':
-    try:
-        res = requests.get(av[1])
-        error = res.raise_for_status()
-        if not error:
-            print(res.text)
-    except requests.exceptions.HTTPError as error:
-        if (res.status_code > 400):
-            print(f'Error code: {res.status_code}')
+if __name__ == "__main__":
+    url = sys.argv[1]
+
+    response = requests.get(url)
+    if response.status_code >= 400:
+        print("Error code: {}".format(response.status_code))
+    else:
+        print(response.text)
