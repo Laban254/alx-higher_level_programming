@@ -1,12 +1,15 @@
 #!/usr/bin/python3
-""" a python script to open a url """
+"""A Python script that fetches
+https://alx-intranet.hbtn.io/status
+"""
 
-import urllib.request
-
-if __name__ == "__main__":
-    with urllib.request.urlopen("https://alx-intranet.hbtn.io/status") as f:
-        body = f.read()
+if __name__ == '__main__':
+    """Opening a url with a context manager"""
+    import urllib.request
+    req = urllib.request.Request('https://alx-intranet.hbtn.io/status')
+    with urllib.request.urlopen(req) as f:
+        html = f.read()
         print('Body response:')
-        print(f'    - type: {type(body)}')
-        print(f'    - content: {body}')
-        print(f'    - utf8 content: {body.decode("utf-8")}')
+        print(f'\t- type: {type(html)}')
+        print(f'\t- content: {html}')
+        print(f'\t- utf8 content: {html.decode("utf-8")}')
