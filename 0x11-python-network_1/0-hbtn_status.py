@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ a python script to open a url """
 
-from urllib.request
+import urllib.request
 
 if __name__ == "__main__":
     with urllib.request.urlopen("https://alx-intranet.hbtn.io/status") as f:
